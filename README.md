@@ -1,32 +1,32 @@
 # Agile Material
 
-Plugin Claude Code regroupant des outils pour les coachs et équipes agiles : diagnostics,
-ateliers, rétrospectives, jeux, formation, etc.
+A Claude Code plugin gathering tools for agile coaches and teams: diagnostics,
+workshops, retrospectives, games, training, and more.
 
-## Structure du plugin
+## Plugin structure
 
 ```
 .claude-plugin/
-  plugin.json          # manifeste du plugin
+  plugin.json          # plugin manifest
 skills/
-  choix-framework-agile/
-    SKILL.md           # questionnaire de découverte -> recommandation de framework
-agents/                # (à venir) agents spécialisés, ex: coach agile conversationnel
-commands/              # (à venir) commandes courtes, ex: /retro, /planning-poker
+  agile-framework-selector/
+    SKILL.md           # discovery questionnaire -> framework recommendation
+agents/                # (coming soon) specialized agents, e.g. a conversational agile coach
+commands/              # (coming soon) short commands, e.g. /retro, /planning-poker
 ```
 
-Chaque nouvel outil agile s'ajoute comme un skill (`skills/<nom>/SKILL.md`) ou un agent
-(`agents/<nom>.md`) indépendant, avec sa propre description de déclenchement.
+Each new agile tool is added as an independent skill (`skills/<name>/SKILL.md`) or agent
+(`agents/<name>.md`), with its own trigger description.
 
-## Skills disponibles
+## Available skills
 
-- **choix-framework-agile** : à travers une série de questions sur le contexte, les
-  ressources/culture et les ambitions de l'organisation, aide à déterminer le framework
-  agile le plus pertinent (Scrum, Kanban, SAFe, LeSS, Shape Up...).
+- **agile-framework-selector**: through a series of questions about an organization's
+  context, resources/culture, and ambitions, helps determine the most relevant agile
+  framework (Scrum, Kanban, SAFe, LeSS, Shape Up...).
 
-## Roadmap (idées à développer)
+## Roadmap (ideas to develop)
 
-- Rétrospectives : formats guidés (Start/Stop/Continue, Mad Sad Glad, 4L...) + facilitation.
-- Jeux agiles : catalogue de jeux (planning poker, estimation, ice breakers) avec règles.
-- Coaching : diagnostics d'équipe, détection d'anti-patterns, plans de progression.
-- Formation : supports pédagogiques pour introduire Scrum/Kanban/SAFe à une équipe.
+- Retrospectives: guided formats (Start/Stop/Continue, Mad Sad Glad, 4L...) + facilitation.
+- Agile games: catalog of games (planning poker, estimation, icebreakers) with rules.
+- Coaching: team diagnostics, anti-pattern detection, progression plans.
+- Training: teaching materials to introduce Scrum/Kanban/SAFe to a team.

@@ -1,7 +1,7 @@
 {
   "name": "agile-material",
   "version": "0.1.0",
-  "description": "Boîte à outils Claude Code pour les coachs et équipes agiles : diagnostics, ateliers, rétrospectives, jeux et formations.",
+  "description": "Claude Code toolkit for agile coaches and teams: diagnostics, workshops, retrospectives, games, and training.",
   "author": {
     "name": "Alec"
   },
